@@ -73,12 +73,20 @@ Comp/
 
 ### Frontend
 
-Open a terminal in `C:\wamp64\www\Comp\frontend` and run:
+> **Note:** The `node_modules/` folder is intentionally ignored and not uploaded to GitHub. After cloning the repository, you must install the dependencies manually.
 
-```bash
-npm install
-npm run dev
-```
+1. Open a terminal in the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the Vite development server:
+   ```bash
+   npm run dev
+   ```
 
 Open `http://localhost:5173/`.
 
@@ -538,7 +546,3 @@ subsequent requests.
 - Check `withCredentials: true` in both Axios clients.
 - Check CORS credential headers and session cookie path.
 - Use the same hostname for frontend API calls and browser testing.
-
-## License
-
-Add a license before distributing this project publicly.
