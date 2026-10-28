@@ -3,6 +3,42 @@
 A full-stack Task Manager built with **React + Vite**, **Core PHP
 (MySQLi)**, and **MySQL**.
 
+## Test Accounts & Credentials
+
+For testing and evaluating the application, the following default/seed credentials can be used:
+
+### Regular User
+
+- **Name:** `workomkar`
+- **Email:** `workomkar@gmail.com`
+- **Password:** `omkaradsdmin123`
+- **Role:** `user`
+
+```json
+{
+  "name": "workomkar",
+  "email": "workomkar@gmail.com",
+  "password": "omkaradsdmin123",
+  "role": "user"
+}
+```
+
+### Administrator
+
+- **Name:** `Administrator`
+- **Email:** `admin@example.com`
+- **Password:** `Admin@12345`
+- **Role:** `admin`
+
+```json
+{
+  "name": "Administrator",
+  "email": "admin@example.com",
+  "password": "Admin@12345"
+}
+```
+> **Note:** For security in production, always change default passwords and configure appropriate credential management.
+
 ## Features
 
 ### Task CRUD
