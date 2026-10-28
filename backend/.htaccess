@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Clean routes under the backend directory:
+# /api/tasks     -> /api/tasks.php
+# /api/tasks/123 -> /api/tasks.php?id=123
+RewriteRule ^api/tasks/?$ api/tasks.php [QSA,L]
+RewriteRule ^api/tasks/([0-9]+)/?$ api/tasks.php?id=$1 [QSA,L]
